@@ -151,12 +151,7 @@ span{
   
       width: 31rem;
       margin-top: 15.5rem;
-      margin-left: 20rem;
-      
-    
-    
-  
-    
+      margin-left: 20rem;   
   }
 
   /*searchbar*/
@@ -189,12 +184,18 @@ span{
     cursor: pointer;
 } */
 
+.mid-part{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
 
+}
 
   /*jobs part*/
 .alljobs{
-  position: relative;
-  top:-32rem
+  display: flex;
+  flex-direction: column;
+
 }
   .jobs
 {
@@ -445,10 +446,9 @@ background: #E8E8E8;
 .filters{
   display: flex;
   flex-direction: column;
-  position: relative;
+  margin-top: 5rem;
   margin-left:6rem;
   top:5rem;
-  padding-right: 72rem;
   gap:0.5rem;
 }
 
@@ -468,7 +468,6 @@ font-weight: 300;
 line-height: normal;
 
 }
-
 
 .Location{
   color: #000;
@@ -544,7 +543,20 @@ line-height: normal;
   border-width: 0 2px 2px 0;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-
+.slider{
+  width: 18rem;
+  margin-top: 1rem;
+}
+.slidecontainer p{
+  color: #000;
+  display: flex;
+  font-family: Inter;
+  font-size:1.2em;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 1rem;
+}
 .text {
   margin-left: 1.5rem;
   display: inline-block;
@@ -589,5 +601,22 @@ h4:after {
 
 
 
-
+.viewmore{
+    
+  border-radius: 10rem;
+  background: #E5DDDD;
+  width: 21.7rem;
+  height: 3.27rem;
+  color: #000;
+  margin-top: 5rem;
+  margin-left: 35rem;
+  font-family: Inter;
+  font-size: 24.177px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  letter-spacing: 1.571px;
+  letter-spacing: 0.588px;    
+  flex-shrink: 0;
+}
 
